@@ -1,0 +1,67 @@
+.Inicio{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.ContactInfo{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.ListaContactos{
+  width: 20%;
+  height: 1000px;
+  overflow-y: auto;
+  border: 1px solid black;
+  a{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.ChatContainer{
+  display: flex;
+  width: 80%;
+  border: 1px solid black;
+  flex-direction: column;
+    
+    
+}
+
+.formulario{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  form{
+    display: flex;
+    flex-direction: column;
+  };
+}
+
+/* Estilo base para todos los mensajes */
+  .message {
+    max-width: 60%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    background-color: #e0e0e0;
+  }
+
+
+  .message.left {
+    align-self: flex-start;
+    background-color: #d3eafd;
+  }
+
+
+  .message.right {
+    align-self: flex-end;
+    background-color: #b2fab4;
+  }
