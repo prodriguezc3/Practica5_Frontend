@@ -1,0 +1,105 @@
+.contenedor-principal {
+  display: flex;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+/*contactitos */
+.lista-contactos {
+  width: 200px;
+  background: #ff45e6;
+  padding: 5px;
+  overflow-y: scroll;
+}
+
+.boton-crear {
+  display: block;
+  margin-bottom: 10px;
+  padding: 4px;
+  background: #949697;
+  color: #fff;
+  border: none;
+}
+
+.contacto {
+  border: 1px solid #000;
+  padding: 5px;
+  margin: 5px 0;
+  background: #eee;
+  cursor: pointer;
+}
+
+/*chat*/
+.zona-chat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.mensajes {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.mensaje {
+  margin: 4px;
+  padding: 6px;
+  border: 1px solid black;
+  max-width: 70%;
+}
+
+.izquierda {
+  background: #d0e0ff;
+}
+
+.derecha {
+  background: #d0ffd0;
+  align-self: flex-end;
+}
+
+
+
+.form-chat {
+  display: flex;
+  margin-top: 5px;
+}
+
+.form-chat input {
+  flex: 1;
+  padding: 4px;
+}
+
+.form-chat button {
+  padding: 4px 8px;
+  background: #333;
+  color: white;
+  border: none;
+}
+
+/*crear elcontacto*/
+.pagina-crear {
+  width: 300px;
+  margin: 40px auto;
+  padding: 10px;
+  background: #ddd;
+}
+
+.formulario-contacto {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-contacto input,
+.formulario-contacto button {
+  margin-bottom: 8px;
+  padding: 6px;
+}
+
+.formulario-contacto button {
+  background: #444;
+  color: white;
+  border: none;
+}
